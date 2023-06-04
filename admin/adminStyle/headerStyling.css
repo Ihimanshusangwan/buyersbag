@@ -1,0 +1,126 @@
+.header {
+    background-color: white;
+    z-index: 2;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    height: 6.5rem;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.header img:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    width: 45rem;
+    height: 6.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 3rem;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    font-size: 1.9rem;
+    /* font-weight: bold; */
+    color: black;
+
+}
+
+.navbar li span {
+    /* text-decoration: none; */
+    font-size: 2rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    font-size: 1.9rem;
+    /* font-weight: bold; */
+    color: black;
+
+}
+
+.navbar span:hover {
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+/* .logo {
+    margin-left: 30px;
+} */
+
+.fa-shopping-basket {
+    font-size: 3.5rem;
+    color: red;
+}
+
+#my-bag {
+    width: 12.2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #f2f2f2;
+    color: #4d4d4d;
+    border: 1px solid #f2f2f2;
+    /* margin-right: 10px; */
+}
+
+#my-bag-heading {
+    font-size: 1.5rem;
+}
+
+#my-bag:hover {
+    cursor: pointer;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+#my-bag-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#no-of-items {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+
+}
+
+#item-count {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar {
+        display: none;
+    }
+}

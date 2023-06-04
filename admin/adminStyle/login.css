@@ -1,0 +1,143 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.root-container {
+    height: 97vh;
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40rem;
+    width: 90rem;
+    /* margin: 20rem auto; */
+
+    background: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 4rem;
+}
+
+#login-form {
+    height: 21rem;
+    width: 30rem;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+}
+
+#details {
+    height: 34rem;
+    width: 38rem;
+    /* border: 2px solid green; */
+    margin: auto;
+    /* background: url(logo.png) no-repeat 100%;
+    background-position: center center; */
+    /* background: 100% 100%; */
+    /* background-size: 46vw 40vh; */
+
+}
+
+#login-btn {
+    width: 7rem;
+    margin: 0px auto;
+    padding: 0.5rem;
+    color: white;
+    background-color: #3498DB;
+    border: 0px;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+.input-box {
+    height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.label {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.3rem 0rem;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+}
+
+.pass {
+    display: flex;
+    flex-direction: column;
+}
+
+#heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    /* padding: 3rem; */
+
+}
+
+@media only screen and (max-width: 1070px) {
+    html {
+        font-size: 40%;
+    }
+
+    .login-container {
+        height: 63rem;
+        width: 47rem;
+    }
+
+    #details {
+        height: 27rem;
+        width: 34rem;
+    }
+
+    #heading {
+        text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        /* padding: 0px; */
+    }
+
+    .label {
+        font-size: 1.8rem;
+    }
+
+    #logo {
+        height: 13rem;
+        width: 34rem;
+
+    }
+}
+
+input[type=text]:focus {
+    border: 0.2rem solid white;
+    outline: 0.2rem solid #5DADE2;
+}
+
+input[type=password]:focus {
+    border: 0.2rem solid white;
+    outline: 0.2rem solid #5DADE2;
+}
+
+#logo {
+    height: 17rem;
+    width: 38rem;
+}
