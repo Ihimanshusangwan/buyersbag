@@ -1,0 +1,128 @@
+#contact-form-body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.712);
+    z-index: 25;
+    display: none;
+}
+
+#contact-form-body form {
+    font-weight: 600;
+    background-color: white;
+    height: max-content;
+    width: 40%;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+#contact-form-body form h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.name-email-box {
+    width: 98.5%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.name-box {
+    width: 50%;
+    height: max-content;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.email-box {
+    display: inline-block;
+    width: 50%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+}
+
+.name-email-input {
+    width: 97%;
+}
+
+.subject-message-label {
+    width: 97%;
+}
+
+#subject-input {
+    width: 97%;
+}
+
+#message-input {
+    width: 97%;
+    height: 10rem;
+}
+
+input {
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+    height: 2.5rem;
+
+}
+
+.fa-close {
+    font-size: 3.8rem;
+    color: red;
+}
+
+.label {
+    font-size: 1.6rem;
+}
+
+.fa-close:hover {
+    cursor: pointer;
+}
+
+#cancel-span {
+    float: right;
+}
+
+#send-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #548b00;
+    border: #548b00;
+}
+
+#send-btn:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1100px) {
+    #contact-form-body form {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #contact-form-body form {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #contact-form-body form {
+        width: 80%;
+    }
+}

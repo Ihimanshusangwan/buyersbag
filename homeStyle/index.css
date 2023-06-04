@@ -1,0 +1,161 @@
+@media only screen and (max-width: 800px) {
+    .navbar {
+        display: none;
+    }
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.all-items-heading {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+
+.all-categories-container {
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    border-bottom: 0.2rem solid grey;
+    justify-content: space-evenly;
+
+}
+
+.cat-img {
+    height: 18rem;
+    width: 26rem;
+    margin: 1.5rem 0.5rem;
+    border: 1px solid grey;
+}
+
+.view-item-by-category:hover {
+    cursor: pointer;
+}
+
+
+.home-page-img-wrapper {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.empty-space {
+    width: 30%;
+    height: 100%;
+}
+
+.img-wrapper {
+    width: 70%;
+    height: 90vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0)), url("../media/homeImg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* .img-wrapper img{
+    width: 100%;
+    height: 100%;
+} */
+.floating-wrapper {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 30%;
+    height: 60%;
+    background-color: white;
+    /* border: 1px solid #444; */
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.off-box {
+    width: 21rem;
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #fee67c 0, #f2cb76);
+    border-radius: 2rem;
+    border: 1px solid #fee67c;
+}
+
+.upto {
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.foot {
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.percent {
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.off {
+    font-size: 7.5rem;
+    font-weight: bold;
+}
+
+.image-overlay {
+    font-size: 5rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background: rgb(0, 0, 0, 0.3);
+
+}
+
+.why-choose-us-wrapper {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.1)), url("../media/why-choose-us.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    clip-path: polygon(17% 82%, 0 100%, 0 0, 100% 0, 100% 100%);
+    font-size: 2rem;
+    color: white;
+
+}
+
+#why-choose-heading {
+    padding: 2.5rem;
+    display: block;
+    margin: auto;
+    color: whitesmoke;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feature-heading {
+
+    margin-left: 2.5rem;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    /* color: #444; */
+}
+
+.feature-desc {
+    font-size: 1.7rem;
+    color: #ffffffd9;
+
+    margin-left: 4.5rem;
+}

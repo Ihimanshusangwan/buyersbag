@@ -1,0 +1,51 @@
+.what-is-buyers-bag,
+.why-to-use {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.what-is-buyers-bag {
+    margin-top: 30px;
+}
+
+.head-para-wrapper {
+    width: 75%;
+}
+
+.what-heading,
+.why-heading {
+    width: 100%;
+    height: max-content;
+    font-size: 25px;
+    color: #58595B;
+    font-weight: 300;
+    padding-bottom: 15px;
+    display: block;
+
+}
+
+.what-img,
+.why-img {
+    width: 25%;
+}
+
+.what-para,
+.why-para {
+    font-size: 17px;
+    color: #808285;
+    line-height: 20px;
+}
+
+.what-footer {
+    color: #6D6E71;
+
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    margin: 22px 0 0;
+}

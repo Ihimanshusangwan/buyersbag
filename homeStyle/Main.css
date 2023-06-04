@@ -1,0 +1,322 @@
+html {
+    font-size: 69.5%;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar {
+        display: none;
+    }
+}
+
+.contact-btn:hover {
+    cursor: pointer;
+}
+
+#burger-menu-btn,
+#burger-menu-close,
+#close-cat {
+    display: inline-block;
+    font-size: 3rem;
+    padding: 0.3rem;
+    border: 0;
+    background-color: white;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    z-index: 50;
+    display: none;
+}
+
+#burger-menu {
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 8rem;
+    left: 0;
+    z-index: 13;
+
+}
+
+#burger-menu ul {
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#burger-menu li {
+    list-style: none;
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#burger-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 40%;
+    }
+
+    .all-item-container {
+        justify-content: space-around;
+    }
+
+    .empty-space {
+        width: 0%;
+    }
+
+    #logout button {
+        margin-right: 6rem;
+    }
+
+    #admin-heading {
+        display: none;
+    }
+
+    .img-wrapper {
+        width: 100%;
+        height: 70vh;
+        background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0)), url(../media/homeImg.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .floating-wrapper {
+        position: absolute;
+        top: 25%;
+        left: 12.5%;
+        width: 75%;
+        height: 30%;
+        color: white;
+        background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4));
+
+    }
+
+    .off-box {
+        color: black;
+    }
+
+    .upto,
+    .foot {
+        font-size: 3rem;
+    }
+
+    .header {
+        height: 8rem;
+
+    }
+
+    #my-bag {
+        margin-right: 3rem;
+    }
+
+    #my-bag-heading {
+        font-size: 2rem;
+    }
+
+    #no-of-items {
+        font-size: 1.3rem;
+    }
+
+    #burger-menu-btn,
+    #burger-menu-close {
+        font-size: 5rem;
+        padding: 0.3rem;
+        border: 0;
+        right: 0.1rem;
+        top: 1rem;
+        display: none;
+    }
+
+    #burger-menu-btn {
+        display: inline-block;
+    }
+
+    .add-to-bag {
+        width: 8.5rem;
+    }
+
+    .item-box {
+        border: 0.1rem solid #ccc;
+        width: 18rem;
+    }
+
+    .cat-img {
+        height: 15rem;
+        width: 18rem;
+    }
+
+    .why-choose-us-wrapper {
+        height: 25vh;
+        clip-path: polygon(17% 91%, 0 100%, 0 0, 100% 0, 100% 100%);
+    }
+
+    #why-choose-heading {
+        padding: 1.1rem;
+        font-size: 3rem;
+    }
+
+    .feature-heading {
+        margin-left: 1.3rem;
+        font-size: 1.3rem;
+        margin-bottom: 0.2rem;
+        margin-top: 0.3rem;
+    }
+    #burger-menu ul {
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8));
+
+}
+
+    .feature-desc {
+        font-size: 1rem;
+        margin-left: 2.5rem;
+    }
+
+    #my-bag-hover-view {
+        width: 100%;
+        right: 0;
+    }
+
+    .all-cat-select-box {
+        position: fixed;
+        width: 50%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: white;
+        z-index: 25;
+        margin: 0;
+        padding: 3rem;
+        display: none;
+        font-size: 2.5rem;
+
+    }
+
+    .cat-items-view-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    #close-cat {
+        position: fixed;
+        top: 1rem;
+        left: 50%;
+        width: max-content;
+        z-index: 40;
+        display: none;
+    }
+    #item-imgs-preview-popup-box {
+        width: 95%;
+        margin: auto;
+    }
+    .other-available-img-popup{
+        width: 15%;
+    }
+    .other-img-popup{
+        width: 100%;
+    }
+    .other-img-popup img {
+        width: 100%;
+    }
+    #main-img-preview-popup{
+        width: 75%;
+    }
+    #main-img-preview-popup img{
+        width: 100%;
+    }
+    .item-view-box{
+        width: 100%;
+    }
+    #main-img-preview{
+        width: 100%;
+    }
+    #main-img-preview img{
+        width: 100%;
+    }
+    .other-available-img{
+        width: 100%;
+    }
+    .item-details-preview {
+        width: 36rem;
+    }
+    .item-basic-details{
+        width: 18rem;
+    }
+    .item-imgs{
+        width: 18rem;
+    }
+    .discount-span{
+        left: 10.5rem;
+    }
+    #my-bag-hover-view {
+        top: 8.2rem;
+    }
+    .bag-hover-remove-btn{
+        font-size: 1.5rem;
+    }
+    .bag-hover-remove-item{
+        width: 3%;
+    }
+     .total-saving-checkout-wrapper{
+        width: 69%;
+    }
+    .empty-continue-wrapper{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    html {
+        font-size: 64%;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    html {
+        font-size: 65%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    html {
+        font-size: 55%;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    html {
+        font-size: 45%;
+    }
+
+}
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 41%;
+    }
+
+}
